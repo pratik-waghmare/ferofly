@@ -1,0 +1,25 @@
+.socialLinks {
+  position: fixed;
+  width: 70px;
+  top: 40%;
+  right: 0;
+  z-index: 1050;
+}
+
+.socialLinks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.socialLinks ul li {
+  margin: 0.8em auto;
+}
+
+.socialLinks ul li a img {
+  height: 31px;
+  width: 31px;
+}

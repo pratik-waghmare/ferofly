@@ -1,38 +1,67 @@
+#parallax__two,
+#parallax__reviews {
+  margin: 1rem 0;
+}
+
+#services,
+#things_to_do,
+#gallery {
+  max-width: 800px;
+  /* width: 80vw; */
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100vw;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 3.4em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h5 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.card-title.h5 {
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.card-text {
+  font-weight: 100;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 27px;
+}
+
+.flex__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding-top: 82px;
+}
+
+#map {
+  width: 100vw;
+  height: 80vh;
+  padding-top: 0;
 }

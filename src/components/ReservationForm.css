@@ -1,0 +1,71 @@
+.reservationForm .form-row {
+  column-gap: 2px;
+}
+
+.reservationForm .form-group {
+  width: 100px;
+}
+
+.reservationForm .form-label {
+  float: left;
+  margin-bottom: 0.2rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.reservationForm .form-control {
+  border-radius: 0px;
+  height: 2em;
+}
+
+.reservationForm .btn-outline-light {
+  border-radius: 0px;
+  transition: 0.3s ease-in-out;
+  border-color: #000;
+  color: #fff;
+  background-color: #000;
+  height: 2.4em;
+  margin-top: 0.4em;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.reservationForm .btn-outline-light:hover {
+  border-color: #000;
+}
+
+.reservationForm .MuiInputBase-root {
+  font-size: 14px;
+}
+
+.reservationForm .MuiFormControl-marginNormal {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 250px;
+}
+
+.reservationForm .input__date {
+  width: 250px;
+}
+
+button {
+  outline: none;
+}
+
+@media only screen and (max-width: 980px) {
+  .reservationForm .form-row {
+    flex-direction: column;
+  }
+
+  .reservationForm .number__input {
+    width: auto;
+  }
+
+  .reservationForm .col-auto {
+    width: 100%;
+  }
+
+  .reservationForm .btn-outline-light {
+    width: 80%;
+  }
+}
